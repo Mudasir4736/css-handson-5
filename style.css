@@ -29,6 +29,7 @@ h1{
   
   display: inline-block;
   animation: rotate 2s infinite;
+  border: 1px solid black;
 }
 @keyframes rotate{
   from{
@@ -48,6 +49,7 @@ h1{
   animation-timing-function: ease-in-out ;
   /* animation-direction: alternate; */
   animation: skewx 2s infinite ;
+  border: 1px solid black;
 }
 @keyframes skewx {
 from{
@@ -68,6 +70,7 @@ to{
   animation-timing-function: ease-in-out ;
   /* animation-direction: alternate; */
   animation: skewy 2s infinite ;
+  border: 1px solid black;
 }
 
 @keyframes skewy {
@@ -86,6 +89,7 @@ to{
   background-color:purple;
   animation: height 2s infinite;
   display: inline-block;
+  border: 1px solid black;
 }
 @keyframes height{
   0%{
@@ -105,6 +109,7 @@ to{
   background-color:green;
   animation: width 2s infinite;
   display: inline-block;
+  border: 1px solid black;
 }
 @keyframes width{
   0%{
@@ -124,6 +129,7 @@ to{
   height: 100px;
   background:green;
   transition: width 2s;
+  border: 1px solid black;
 }
 
 .linear:hover {
@@ -135,6 +141,7 @@ to{
   height: 100px;
   background:green;
   transition: width 2s, height 3s;
+  border: 1px solid black;
 }
 
 .widthheight:hover {
@@ -150,6 +157,7 @@ to{
   transition-duration: 2s;
   transition-timing-function: linear;
   transition-delay: 1s;
+  border: 1px solid black;
 }
 
 .delay:hover {
@@ -164,6 +172,7 @@ to{
   transition-duration: 2s;
   transition-timing-function: ease;
   transition-delay: 1s;
+  border: 1px solid black;
 }
 
 .ease:hover {
@@ -179,6 +188,7 @@ to{
   transition-duration: 2s;
   transition-timing-function: ease-in;
   transition-delay: 1s;
+  border: 1px solid black;
 }
 
 .ease-in:hover {
@@ -194,6 +204,7 @@ to{
   transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 1s;
+  border: 1px solid black;
 }
 
 .ease-out:hover {
@@ -208,6 +219,7 @@ to{
   transition-duration: 2s;
   transition-timing-function: ease-in-out;
   transition-delay: 1s;
+  border: 1px solid black;
 }
 
 .ease-in-out:hover {
